@@ -97,11 +97,11 @@ EXPORT MyProg
 			EXPORT R_COL
 			EXPORT Bi
 			EXPORT CiArray_W DCD 12, 12, -3, 48, 55, -36, 27, 1
-			DCD 1, 2, 3, 4, 5, 6, 7, 2
-			DCD -17, -68, 89, 20, 21, 4, 23, -53
-			DCD 8, 9, 10, 11, 12, 13, 14, 15
-			DCD -3, -34, 76, 31, 6, 2, -90, 80
-			DCD 64, 32, 64, 21, 66, 99, 12, 0
+				DCD 1, 2, 3, 4, 5, 6, 7, 2
+				DCD -17, -68, 89, 20, 21, 4, 23, -53
+				DCD 8, 9, 10, 11, 12, 13, 14, 15
+				DCD -3, -34, 76, 31, 6, 2, -90, 80
+				DCD 64, 32, 64, 21, 66, 99, 12, 0
 			W_ROW DCD 6
 			W_COL DCD 8
 			R_ROW DCD 8
@@ -114,13 +114,14 @@ EXPORT MyProg
 			EXPORT Count
 			EXPORT Sum
 			Array_R DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0
-			DCD 0, 0, 0, 0, 0, 0Scalar DCD 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+				DCD 0, 0, 0, 0, 0, 0
+			Scalar DCD 0
 			Count DCD 0
 			Sum DCD 0
 			;Sum_WSPACE 4 * 2
